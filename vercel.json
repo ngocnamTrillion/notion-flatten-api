@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "src": "api/flatten.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/api/flatten", "dest": "api/flatten.py" }
+  ]
+}
